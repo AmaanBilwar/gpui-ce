@@ -6,7 +6,6 @@
 # IDE and editor
 .DS_Store
 .idea
-.vscode
 *.xcodeproj
 *.xcworkspace
 DerivedData/
@@ -24,10 +23,11 @@ xcuserdata/
 /result
 
 # Environment and secrets
-.env
 .env.secret.toml
 .netrc
 
 # Misc
 **/*.db
 .build
+config.bat
+node_modules
